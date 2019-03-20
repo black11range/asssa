@@ -1,6 +1,6 @@
 var extensionSettings = {
     "gravity": {
-        "score": 69696969696969
+        "score": 696969690
     },
     "learn": {
         "speed": 700
