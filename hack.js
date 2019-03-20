@@ -79,7 +79,7 @@ var extensionSettings = {
 					match();
 				});
 			} else if (href.includes("/gravity")) {
-				cAlert('<h2>Game Mode: Gravity</h2>Thank you for using SnowLord7s Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>Press space when the answer appears in the input area. If you get an answer wrong, press space in the input to continue quickly.<br>By clicking INJECT the score will be automatically sent to Quizlet\'s servers.<br><h4>Gravity Score: </h4><input type="text" id="gravityScoreInput" value="' + (extensionSettings ? extensionSettings.gravity.score : 4294967295) + '"></input><br><br><button class="UIButton" id="gravityButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Gravity</h2>Thank you for using SnowLord7s Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>Press space when the answer appears in the input area. If you get an answer wrong, press space in the input to continue quickly.<br>By clicking INJECT the score will be automatically sent to Quizlet\'s servers.<br><h4>Gravity Score: </h4><input type="text" id="gravityScoreInput" value="' + (extensionSettings ? extensionSettings.gravity.score : 6969696969) + '"></input><br><br><button class="UIButton" id="gravityButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("gravityButton").addEventListener("click", function() {
 					insaneWin("gravity", getId("gravityScoreInput").value);
 					document.getElementById("customMessageContainer").remove();
@@ -492,7 +492,7 @@ var extensionSettings = {
 
 		if (game == "gravity") {
 			if (!score) {
-				score = prompt("Highest possible score is 4294967295.\nScore: ", 4294967295);
+				score = prompt("Highest possible score is 6969696969.\nScore: ", 6969696969);
 			}
 			data = {
 				sessionId: undefined,
@@ -509,7 +509,7 @@ var extensionSettings = {
 			}
 			score = score.replace(/[^0-9]/g, "");
 			data = {
-				score: Math.min(Math.max(5, score), 4294967295),
+				score: Math.min(Math.max(5, score), 6969696969),
 				previous_record: Quizlet.matchModeData.recordTime,
 				too_small: 0,
 				time_started: Quizlet.SERVER_TIME,
